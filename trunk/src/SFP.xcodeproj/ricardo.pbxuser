@@ -130,8 +130,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316613605;
-			PBXWorkspaceStateSaveDate = 316613605;
+			PBXPerProjectTemplateStateSaveDate = 316626490;
+			PBXWorkspaceStateSaveDate = 316626490;
 		};
 		perUserProjectItems = {
 			8C5830EB12C39F00004E7635 /* PBXTextBookmark */ = 8C5830EB12C39F00004E7635 /* PBXTextBookmark */;
@@ -226,8 +226,8 @@
 			8CE6628212DF20F100795EA1 /* PBXTextBookmark */ = 8CE6628212DF20F100795EA1 /* PBXTextBookmark */;
 			8CE6628312DF20F100795EA1 /* PBXTextBookmark */ = 8CE6628312DF20F100795EA1 /* PBXTextBookmark */;
 			8CE6629412DF23C600795EA1 /* PBXTextBookmark */ = 8CE6629412DF23C600795EA1 /* PBXTextBookmark */;
-			8CE6629612DF23C600795EA1 /* PBXTextBookmark */ = 8CE6629612DF23C600795EA1 /* PBXTextBookmark */;
 			8CE662A512DF243800795EA1 /* PBXTextBookmark */ = 8CE662A512DF243800795EA1 /* PBXTextBookmark */;
+			8CE662B812DF564500795EA1 /* PBXTextBookmark */ = 8CE662B812DF564500795EA1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8C46A8AA12C3853800D88ECD /* Source Control */;
 		userBuildSettings = {
@@ -466,7 +466,7 @@
 	};
 	8C46A9AA12C386E500D88ECD /* GameOverScene.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1531, 8450}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 8411}}";
 			sepNavSelRange = "{12265, 0}";
 			sepNavVisRange = "{11630, 1371}";
 		};
@@ -1841,17 +1841,17 @@
 		vrLen = 406;
 		vrLoc = 0;
 	};
-	8CE6629612DF23C600795EA1 /* PBXTextBookmark */ = {
+	8CE662A512DF243800795EA1 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8C46A9AA12C386E500D88ECD /* GameOverScene.m */;
-		name = "GameOverScene.m: 336";
-		rLen = 6;
-		rLoc = 12431;
+		name = "GameOverScene.m: 333";
+		rLen = 0;
+		rLoc = 12265;
 		rType = 0;
-		vrLen = 1418;
-		vrLoc = 11541;
+		vrLen = 1371;
+		vrLoc = 11630;
 	};
-	8CE662A512DF243800795EA1 /* PBXTextBookmark */ = {
+	8CE662B812DF564500795EA1 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8C46A9AA12C386E500D88ECD /* GameOverScene.m */;
 		name = "GameOverScene.m: 333";
