@@ -46,7 +46,7 @@ To see differences, just look for FREE_VERSION define word in project source cod
 
 
 *** 3rd Party Libraries or Source Code ***
-Several 3rd libraries or source has been used to create SFP.
+Several 3rd party libraries or source code was used to create SFP.
 Cocos2D. cocos2d-iphone-0.99.5.tar.gz. The game engine. Several versions were used. 0.99.5 was the latest one.
 CCRadioMenu. By Ray Wenderlich. http://www.raywenderlich.com/414/how-to-create-buttons-in-cocos2d-simple-radio-and-toggle.
 Facebook. facebook-facebook-iphone-sdk-1059eb6.zip. When a score is sent to my web service, in that moment, a random message is written in users wall (usually in English, but in Spanish if user's iPhone is in Spanish).
@@ -67,4 +67,4 @@ These 6 files have not been included because they are private data.
 
 
 *** Contact Information ***
-If you have any question, contact me at ricardo_ruiz_lopez AT yahoo DOT es. But remember, SFP is being released without any kind of support. Use at your own risk.
+If you have any question, contact me at ricardo_ruiz_lopez AT yahoo DOT es. But remember, SFP is released without any kind of support. Use at your own risk.
