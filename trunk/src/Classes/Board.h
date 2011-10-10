@@ -81,6 +81,5 @@ typedef enum {
 -(void) onEnterBoardState:(BoardState)state;
 -(void) onExitBoardState:(BoardState)state;
 
--(void) dealloc;
 @end
 

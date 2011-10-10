@@ -25,7 +25,6 @@ This object will be used by Board.
 }
 -(id) initNormalPieceWithSpriteFrame:(CCSpriteFrame*)spriteFrame Piece:(unsigned int)piece Girl:(unsigned int)girl;
 -(id) initWildcardWithSpriteFrame:(CCSpriteFrame*)spriteFrame;
--(void) dealloc;
 
 @property(nonatomic,readonly) unsigned int m_girl;
 @property(nonatomic,readonly) unsigned int m_piece;
