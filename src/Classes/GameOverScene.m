@@ -19,8 +19,8 @@
 #import "Score.h"
 #import "ObjectiveResource.h"
 #import "ConnectionManager.h"
-#import "LocalHighscoresModel.h";
-#import "LocalScore.h";
+#import "LocalHighscoresModel.h"
+#import "LocalScore.h"
 #import "FacebookManager.h"
 #import "RenameView.h"
 
@@ -332,8 +332,8 @@
 	
 	// set up Objetive Resource 
 	[ObjectiveResourceConfig setResponseType:XmlResponse];
-	[ObjectiveResourceConfig setUser:@"*****"];  /***** REMOVED ******/
-	[ObjectiveResourceConfig setPassword:@"******"];  /***** REMOVED ******/
+	[ObjectiveResourceConfig setUser:@"***********"];  /***** REMOVED ******/
+	[ObjectiveResourceConfig setPassword:@"***********"];  /***** REMOVED ******/
 	
 	// create object to serialize
 	Score* score=[[[Score alloc] init] autorelease];

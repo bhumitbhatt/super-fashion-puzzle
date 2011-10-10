@@ -28,7 +28,6 @@ Posición con el tablero a la izquierda: 320-125-35*0.5
 	float m_duration;
 }
 -(id) initWithPlayingScene:(PlayingScene*)playingScene;
--(void) dealloc;
 -(void) update:(ccTime)dt;
 -(void) activate;
 -(void) deactivate;

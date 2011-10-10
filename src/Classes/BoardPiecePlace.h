@@ -63,5 +63,4 @@ It may have up to 3 different sprites: Piece, Selection, Matching. All of tem us
 -(void) onExitBoardPiecePlaceState:(BoardPiecePlaceState)state;
 -(void) changeBoardPiecePlaceState:(BoardPiecePlaceState)state;
 
--(void) dealloc;
 @end

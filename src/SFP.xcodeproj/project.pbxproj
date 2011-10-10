@@ -2951,8 +2951,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ricardo Ruiz (2JA9S8572U)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2969,7 +2969,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SFP;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B5A32591-EC67-497B-A62A-82FEE72B623C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SKIP_INSTALL = NO;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
@@ -2978,8 +2979,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ricardo Ruiz (2JA9S8572U)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -2994,7 +2995,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SFP;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B5A32591-EC67-497B-A62A-82FEE72B623C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SKIP_INSTALL = NO;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
@@ -3009,6 +3011,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "cocos2d libraries";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -3022,6 +3025,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "cocos2d libraries";
+				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -3051,8 +3055,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ricardo Ruiz";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3067,7 +3071,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SFP;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8750C4B4-05CF-4B57-9CAB-81EF63DF8C1A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SKIP_INSTALL = NO;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Adhoc;
@@ -3082,6 +3087,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "cocos2d libraries";
+				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};
 			name = Adhoc;
@@ -3111,8 +3117,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ricardo Ruiz";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3127,7 +3133,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SFP;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A0C4FCA6-0FB5-484A-A7DB-FEEB2FC4AD68";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SKIP_INSTALL = NO;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Appstore;
@@ -3142,6 +3149,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "cocos2d libraries";
+				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};
 			name = Appstore;
@@ -3150,8 +3158,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ricardo Ruiz (2JA9S8572U)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3169,7 +3177,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "SFP Free";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "52A715B0-E5D9-4068-B73A-2678FA606DCF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
@@ -3178,8 +3187,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ricardo Ruiz (2JA9S8572U)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3195,7 +3204,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "SFP Free";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "52A715B0-E5D9-4068-B73A-2678FA606DCF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
@@ -3204,8 +3214,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ricardo Ruiz";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3221,7 +3231,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "SFP Free";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "26E2256A-413B-4508-9171-13045CDBD586";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Adhoc;
@@ -3230,8 +3241,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ricardo Ruiz";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3247,7 +3258,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "SFP Free";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F03B3F9E-2F9D-4199-8562-7A62832DF7B9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Appstore;

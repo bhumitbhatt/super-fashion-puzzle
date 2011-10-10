@@ -31,5 +31,3 @@ Por tanto, el menú de pausa llamará a setPopAtExit nada más crear el menú de
 -(void) logoutButtonPressed:(id)sender;
 -(void) setPopAtExit;
 @end
-
-

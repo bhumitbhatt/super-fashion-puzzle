@@ -24,7 +24,6 @@ typedef enum {
 	GlobalHighscoresViewController* m_globalHighscoresViewController;
 	ScoresState m_state;
 }
--(void) alertView:(UIAlertView*)alert clickedButtonAtIndex:(NSInteger)buttonIndex;
 
 // button callbacks
 -(void) okButtonPressed: (id)sender;
